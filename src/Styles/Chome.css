@@ -1,0 +1,88 @@
+.chome-container {
+      
+    margin: 14px 10px 10px 10px;
+    width: 1600px;
+    max-width: 1600px;
+    height: 852px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.banner {
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: flex-start;
+}
+
+.banner-img {
+    display: block;
+    margin: 0 auto;
+   
+    width: auto;   
+    height: 150px;  
+ 
+}
+
+.banner-text {
+    position: relative;
+    z-index: 2;
+    color: rgb(173, 169, 160);
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.banner-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+}
+
+.home-sections {
+    
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.section-card {
+    
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+.section-card:hover {
+    transform: translateY(-3px) scale(1);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    
+}
+
+.section-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+}

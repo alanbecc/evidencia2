@@ -1,0 +1,50 @@
+.cardR-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+ 
+.cardR {
+    
+    border: 2px solid #524b4b;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+  }
+ .input-cardR {
+    
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 5px;
+  }
+  .cardR-button{
+    margin-top: 10px;
+  }
+.input-icon-container {
+    position: relative;
+    width: 300px; /* igual al input */
+    margin-bottom: 10px;
+}
+.input-icon-container .icon {
+    position: absolute;
+    right:  10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    pointer-events: none;
+    color: #555; 
+}
+.enlaceR {
+    text-decoration: none;
+   color: rgb(173, 169, 160);
+}
+

@@ -1,0 +1,127 @@
+
+.contacto-container {
+    
+    margin: 14px 10px 10px 10px;
+   
+    width: 1600px;
+    height: 852px;
+    padding: 40px 0 40px 0;
+   
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.contacto-header {
+    position: absolute;
+    top: 50px;
+    margin: 0 0 0 0;
+    
+}
+
+.contacto-header h2 {
+    font-size: 3.2rem;
+    color: #1a365d;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(94, 130, 163, 0.18);
+}
+
+.contacto-header p {
+    font-size: 1.6rem;
+    color: rgb(173, 169, 160);
+}
+
+.contacto-mapa {
+    width: 800px;
+    height: 540px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(156, 196, 233, 0.1);
+    background: #e9ecef;
+}
+
+.contacto-form {
+    border: 2px solid #524b4b;
+    border-radius: 14px;
+    height: 540px;
+    padding: 32px 24px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+
+
+
+.contacto-input {
+    width: 100%;
+    padding: 10px 10px 10px 38px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: rem;
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+.contacto-input:focus {
+    border-color: #3182ce;
+}
+
+
+
+ 
+.contacto-btn {
+ width: 300px;
+ cursor: pointer;
+ padding: 15px 25px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 700;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+
+
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+button:hover {
+ color: #e8e8e8;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+.contacto-mensaje-info {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: rgb(173, 169, 160)
+}
+.contacto-mensaje-info strong {
+font-size: 1.5rem;
+    color: #1a365d;
+     text-shadow: 0 2px 8px rgba(94, 130, 163, 0.18);
+}
